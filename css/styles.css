@@ -1,0 +1,29 @@
+img#profile_picture{
+	width: 500px;
+}
+body{
+	background-color: maroon;
+}
+h1{
+	color: blue;
+}
+ol{
+	color: blue;
+}
+img#pizza{
+	width: 75px;
+}
+
+img#steak{
+	width: 75px;
+}
+
+img#noodles{
+	width: 75px;
+}
+li{
+	font-size: 25px;
+}
+h1{
+	font-size: 75px;
+}
