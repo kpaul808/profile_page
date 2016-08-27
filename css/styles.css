@@ -1,54 +1,64 @@
-img#profile_picture{
-	width: 500px;
-    margin: 0px auto;
-    border-radius: 25px;
-    margin-top: 20px;
-} 
+.table_pics{
+	width: 150px;
+}
 
+table#table{
+	margin: 0px auto;
+	width: 1000px;
+}
+
+.tabled{
+	text-align: center;
+	font-family: 'Raleway',sans-serif; font-size: 35px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase;
+}
+
+img#kitten{
+	margin: 0px auto;
+	width: 100px;
+	margin-bottom: -10px;
+	border-radius: 100%;
+}
 
 body{
-	background-color: #00e6e6;
 	text-align: center;
-	height: 100%;
-}
-h1{
-	color: blue;
-}
-ul{
-	color: blue;
-}
-img#pizza{
-	width: 75px;
+	margin-right: 700px;
 }
 
-img#steak{
-	width: 75px;
+div#header{
+	margin-right: 50px;
+	margin-left: 50px;
 }
 
-img#noodles{
-	width: 75px;
+div#line{
+	background-color: blue;
+	height: 15px;
+	margin-top: 10px;
+	border-radius: 5px;
 }
-li{
-	font-size: 25px;
+div#Stuff{
+	background-color: teal;
+	text-align: left;
+	border-radius: 10px;
 }
-h1{
-	font-size: 75px;
+
+.Stuffclass{
+	
 }
-p#intro{
-	text-align: center;
-	color: blue;
-	font-size: 30px;
+
+div#lop{
+	text-align: left;
+	background-color: skyblue;
+	color: grey;
+	border: 1px;
+	margin-top: -20px;
+	border-radius: 10px;
 }
-h1#list_title{
-	text-align: center;
+p#ipsum{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-indent: 5%;
 }
-ul#food_list{
-   text-align: center
-}
-div#top_div{
-	background-color: aquamarine;
-	border-radius: 25px;
-	width: 45%;
-	height: 100vh;
-	margin: 0px auto;
+
+th#ths{
+	font-size: 48px; font-family: 'Signika', sans-serif;
 }
