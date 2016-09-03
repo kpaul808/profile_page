@@ -2,17 +2,18 @@
 	width: 150px;
 }
 
-table#table{
+.table{
 	margin: 0px auto;
-	width: 1000px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
-.tabled{
+td{
 	text-align: center;
 	font-family: 'Raleway',sans-serif; font-size: 35px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase;
 }
 
-img#kitten{
+.kitten{
 	margin: 0px auto;
 	width: 100px;
 	margin-bottom: -10px;
@@ -21,7 +22,8 @@ img#kitten{
 
 body{
 	text-align: center;
-	margin-right: 700px;
+	background-color: skyblue;
+	cursor: crosshair;
 }
 
 div#header{
@@ -29,36 +31,83 @@ div#header{
 	margin-left: 50px;
 }
 
-div#line{
+.line{
 	background-color: blue;
 	height: 15px;
 	margin-top: 10px;
 	border-radius: 5px;
 }
-div#Stuff{
+
+.Stuff{
 	background-color: teal;
 	text-align: left;
 	border-radius: 10px;
 }
 
-.Stuffclass{
-	
-}
 
-div#lop{
+.lop{
 	text-align: left;
-	background-color: skyblue;
+	background-color: gainsboro;
 	color: grey;
 	border: 1px;
 	margin-top: -20px;
 	border-radius: 10px;
 }
-p#ipsum{
+.ipsum{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	text-indent: 5%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
-th#ths{
+th{
 	font-size: 48px; font-family: 'Signika', sans-serif;
+}
+
+.red{
+	color: red;
+}
+
+.orange{
+	color: orange;
+}
+
+.yellow{
+	color: yellow;
+}
+
+.GIANT{
+	margin-right: 20vw;
+	margin-left: 20vw;
+}
+
+.lists{
+	background-color: gainsboro;
+	border-radius: 10px;
+}
+
+.llists{
+	display: inline-block;
+}
+
+.button{
+	color: #fff;
+  	text-shadow: -2px 2px #346392;
+  	background-color: #ff9664;
+  	background-image: linear-gradient(top, #6496c8, #346392);
+  	box-shadow: inset 0 0 0 1px #27496d;
+  	border: none;
+  	border-radius: 15px;
+  	width: 100px;
+}
+
+input{
+	 border: 3px outset #FFA5A5; 
+    outline:0; 
+    height:25px; 
+    width: 275px;
+    margin-bottom: 10px;
 }
